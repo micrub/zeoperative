@@ -1,10 +1,23 @@
 # zeoperative
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure based toolbel for some tactical It operation routines.
 
 ## Usage
 
 FIXME
+
+## Scopes
+
+## IAAS scope
+
+* AWS
+  * AWS sdk wrapping - to establish an handling convention around declared use cases, like:
+    * add security group to `ec2` instances, in order to provision an access for scoped services.
+      * For example:
+        > * Any `ec2` instance must :
+            * have `node-exporter` set up and runing
+            * have an security group, that allow sampling of `node-exporter` data
+    *
 
 ## License
 
