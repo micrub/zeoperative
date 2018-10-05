@@ -5,4 +5,5 @@
   :license {:name "MIT License"
             :url "LICENSE.txt"}
   :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/tools.namespace "0.2.11"]
                  [amazonica "0.3.132"]])
